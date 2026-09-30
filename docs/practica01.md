@@ -1,7 +1,7 @@
 # Práctica 01 - Documentación
 ## PASO 1: Git instalado y configurado en local
 #### Con el comando "git --version" muestro que tengo git instalado 
-![alt text](proyecto2627/img/1.png)
+![alt text](/img/1.png)
 -- 
 #### Con el comando "git config -list" se puede ver que está configurado.
 ![alt text](/img/2.png)
@@ -21,3 +21,5 @@
 ## PASO 5: Herd enlazado al repositorio "misitio" y sirviéndolo en  HTTPS.
 #### La información requerida se muestra en el apartado path y url.
 ![alt text](/img/6.png)
+
+#### He utilizado 'readthedocs'
