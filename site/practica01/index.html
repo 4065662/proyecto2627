@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO - Práctica01</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/estilo.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var properdocs_page_name = "PRACTICA 01 - CONFIGURACI\u00d3N E INSTALACI\u00d3N DEL ENTORNO";
+        var properdocs_page_input_path = "practica01.md";
+        var properdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Práctica01
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" title="Escriba el término de búsqueda aquí" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegación">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#paso-1-git-instalado-y-configurado-en-local">PASO 1: Git instalado y configurado en local</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#con-el-comando-git-version-muestro-que-tengo-git-instalado">Con el comando "git --version" muestro que tengo git instalado</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_1"></a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#con-el-comando-git-config-list-se-puede-ver-que-esta-configurado">Con el comando "git config -list" se puede ver que está configurado.</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#paso-2-github-cli-instalado-y-configurado">PASO 2: GitHub CLI instalado y configurado.</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#con-el-comando-gh-auth-status-muestro-la-informacion-requerida">Con el comando "gh auth status" muestro la información requerida.</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#paso-3-herd-instalado-con-la-version-de-php-84">PASO 3: Herd instalado con la versión de PHP 8.4.</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#en-active-services-podemos-observar-la-version">En "Active services" podemos observar la versión.</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#paso-4-repositorio-misitio-clonado-en-local">PASO 4: repositorio "misitio" clonado en local</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#con-el-comando-git-status-vemos-como-esta-clonado">Con el comando "git status" vemos como está clonado.</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#paso-5-herd-enlazado-al-repositorio-misitio-y-sirviendolo-en-https">PASO 5: Herd enlazado al repositorio "misitio" y sirviéndolo en HTTPS.</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#la-informacion-requerida-se-muestra-en-el-apartado-path-y-url">La información requerida se muestra en el apartado path y url.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#he-utilizado-readthedocs">He utilizado 'readthedocs'</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Menú de navegación en móvil">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Práctica01</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Documentos"></a></li>
+      <li class="breadcrumb-item active">PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="practica-01-documentacion">Práctica 01 - Documentación</h1>
+<h2 id="paso-1-git-instalado-y-configurado-en-local">PASO 1: Git instalado y configurado en local</h2>
+<h4 id="con-el-comando-git-version-muestro-que-tengo-git-instalado">Con el comando "git --version" muestro que tengo git instalado</h4>
+<h2 id="_1"><img alt="alt text" src="/img/1.png" /></h2>
+<h4 id="con-el-comando-git-config-list-se-puede-ver-que-esta-configurado">Con el comando "git config -list" se puede ver que está configurado.</h4>
+<p><img alt="alt text" src="/img/2.png" /></p>
+<h2 id="paso-2-github-cli-instalado-y-configurado">PASO 2: GitHub CLI instalado y configurado.</h2>
+<h4 id="con-el-comando-gh-auth-status-muestro-la-informacion-requerida">Con el comando "gh auth status" muestro la información requerida.</h4>
+<p><img alt="alt text" src="/img/3.png" /></p>
+<h2 id="paso-3-herd-instalado-con-la-version-de-php-84">PASO 3: Herd instalado con la versión de PHP 8.4.</h2>
+<h4 id="en-active-services-podemos-observar-la-version">En "Active services" podemos observar la versión.</h4>
+<p><img alt="alt text" src="/img/4.png" /></p>
+<h2 id="paso-4-repositorio-misitio-clonado-en-local">PASO 4: repositorio "misitio" clonado en local</h2>
+<h4 id="con-el-comando-git-status-vemos-como-esta-clonado">Con el comando "git status" vemos como está clonado.</h4>
+<p><img alt="alt text" src="/img/5.png" /></p>
+<h2 id="paso-5-herd-enlazado-al-repositorio-misitio-y-sirviendolo-en-https">PASO 5: Herd enlazado al repositorio "misitio" y sirviéndolo en  HTTPS.</h2>
+<h4 id="la-informacion-requerida-se-muestra-en-el-apartado-path-y-url">La información requerida se muestra en el apartado path y url.</h4>
+<p><img alt="alt text" src="/img/6.png" /></p>
+<h4 id="he-utilizado-readthedocs">He utilizado 'readthedocs'</h4>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Construído con <a href="https://properdocs.org/">ProperDocs</a> usando un <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a> provisto por <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versiones">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      <script src="../js/copy-button.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

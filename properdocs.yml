@@ -1,6 +1,7 @@
-site_name: My Docs
+site_name: Proyecto 26/27
 nav:
   - PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO: practica01.md
+
 
 theme:
   name: readthedocs
